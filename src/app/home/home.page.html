@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+     Vehicle Price Predictor
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -17,4 +17,24 @@
     <strong>Ready to create an app?</strong>
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>
+
+  <ion-card class="ion-card">
+    <ion-item>
+      <ion-label fixed>Username :</ion-label>
+      <ion-input type="text" [(ngModel)]="name"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label fixed>Username :</ion-label>
+      <ion-input type="text" [(ngModel)]="namee"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label fixed>Username :</ion-label>
+      <ion-input type="text" [(ngModel)]="nameee"></ion-input>
+    </ion-item>
+</ion-card>
+
+<div  [innerHTML]="htmlStr"></div>
+<button ion-button (click)="sendPostRequest()">Post Data</button>
 </ion-content>

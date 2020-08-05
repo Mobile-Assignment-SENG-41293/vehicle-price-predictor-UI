@@ -1,5 +1,7 @@
 {
   "name": "vehicle_price_predictor_UI",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
